@@ -1,1 +1,1 @@
-# npl-frontend-starter
+# npl-init
