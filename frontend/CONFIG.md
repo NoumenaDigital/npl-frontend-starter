@@ -9,7 +9,7 @@ Defined by LOGIN_MODE environment variable.
 - OIDC:
     - uses custom login form with /protocol/openid-connect/token endpoint
 - KEYCLOAK:
-    - uses keycloak lib
+    - uses keycloak lib (deeper integration with keycloak, higher security standards)
 
 ## API
 
@@ -25,4 +25,5 @@ Defined by DEPLOYMENT_TARGET environment variable.
 1. dev mode: LOCAL deployment target + DEV MODE login
 2. local user management: LOCAL deployment target + OIDC login
 3. complete user management, prepare for cloud deployment: LOCAL deployment target + KEYCLOAK login
-4. cloud deployment: NOUMENA CLOUD deployment target + KEYCLOAK login
+4. cloud deployment: NOUMENA CLOUD deployment target + OIDC login
+5. cloud deployment, with keycloak integration: NOUMENA CLOUD deployment target + KEYCLOAK login
