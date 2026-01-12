@@ -5,11 +5,11 @@ Starter project intended to be a quick start for writing an NPL application with
 Starter options:
 
 - If you want to develop and deploy NPL locally, follow the steps provided in
-the [Developing on your own machine](https://documentation.noumenadigital.com/tracks/developing-NPL-local/) track. 
+the [Developing on your own machine](https://documentation.noumenadigital.com/tracks/developing-NPL-local/) documentation track. 
 
-- Alternatively, you can open the repository in GitHub Codespaces by going to the [npl-frontend-starter GitHub repository](https://github.com/NoumenaDigital/npl-frontend-starter), and clicking on `Use this template`, then select `Open in a Codespace`. Note that this will copy the code of the `master` branch of the repository.
+- Alternatively, you can open the repository in GitHub Codespaces by going to the [npl-frontend-starter GitHub repository](https://github.com/NoumenaDigital/npl-frontend-starter), and clicking on `Use this template`, then select `Open in a Codespace`.
 
-- **If you've already opened the `npl-frontend-starter` repository in a Codespace**, see the guidance to [Run an NPL app on NOUMENA Cloud](#running-the-npl-init-app-on-noumena-cloud) or [Run an NPL app in Codespaces](#running-the-npl-init-app-in-codespaces) sections to get started with running your first NPL application.
+- **If you've already opened the `npl-frontend-starter` repository in a Codespace**, follow the below README sections [Running the npl-frontend-starter app on NOUMENA Cloud](#running-the-npl-frontend-starter-app-on-noumena-cloud) or [Running the npl-frontend-starter app in Codespaces](#running-the-npl-frontend-starter-app-in-codespaces) to run your first full-stack NPL application.
 
 ## Running the npl-frontend-starter app on NOUMENA Cloud
 
