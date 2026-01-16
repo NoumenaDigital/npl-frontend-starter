@@ -4,12 +4,13 @@
 
 Defined by LOGIN_MODE environment variable.
 
-- `DEV_MODE`: Uses custom login form with `/token` endpoint
-- `OIDC`: Uses _Resource Owner Password Credentials (ROPC)_ OIDC/OAuth2.0 authentication flow (e.g. Keycloak "Direct 
-    Access grant") and custom login form with `/protocol/openid-connect/token` endpoint. The user provides
-    username/password directly to the client, and the client sends username and password to the token endpoint of the
-    Identity Provider. For use cases where risks associated with credentials handling by the app are limited, e.g.
-    direct API login.
+- `DEV_MODE`: Uses _Resource Owner Password Credentials (ROPC)_ OIDC/OAuth2.0 authentication flow and custom login form
+    with the `/token` endpoint provided by the
+    [NPL engine-embedded OIDC server](https://documentation.noumenadigital.com/runtime/deployment/configuration/Engine-Dev-Mode/).
+- `OIDC`: Uses ROPC OIDC/OAuth2.0 authentication flow (e.g. Keycloak "Direct Access grant") and custom login form with a
+    `/protocol/openid-connect/token` endpoint of an OIDC Identity Provider. The user submits username/password directly
+    to the client, and the client sends username and password to the token endpoint of the Identity Provider. For use 
+    cases where risks associated with credentials handling by the app are limited, e.g. direct API login.
 - `KEYCLOAK`: Uses _Authorization Code_ OIDC/OAuth2.0 authentication flow, i.e. user login via redirect to a login
     form provided by the Identity Provider. Standard flow for web apps (confidential/public clients). Best for MFA,
     browser session and SSO support.
