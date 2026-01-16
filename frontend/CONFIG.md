@@ -14,6 +14,12 @@ Defined by LOGIN_MODE environment variable.
     provided by the Identity Provider. Standard flow for web apps (confidential/public clients). Best for MFA, browser
     session and SSO support.
 
+References:
+[ROPC](https://auth0.com/docs/get-started/authentication-and-authorization-flow/resource-owner-password-flow)
+and
+[Authorization Code](https://auth0.com/docs/get-started/authentication-and-authorization-flow/authorization-code-flow)
+flows (as powered by auth0.com)
+
 ## API
 
 Defined by DEPLOYMENT_TARGET environment variable.
