@@ -10,7 +10,7 @@ Defined by LOGIN_MODE environment variable.
     username/password directly to the client, and the client sends username and password to the token endpoint of the
     Identity Provider. For use cases where risks associated with credentials handling by the app are limited, e.g.
     direct API login.
-- KEYCLOAK: Uses Authorization Code OIDC/OAuth2.0 authentication flow, i.e. user login via redirect to a login form
+- KEYCLOAK: Uses _Authorization Code_ OIDC/OAuth2.0 authentication flow, i.e. user login via redirect to a login form
     provided by the Identity Provider. Standard flow for web apps (confidential/public clients). Best for MFA, browser
     session and SSO support.
 
