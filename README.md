@@ -59,7 +59,7 @@ To build and deploy the frontend to NOUMENA Cloud:
     npl openapi
     cd frontend
     npm install -D @hey-api/openapi-ts
-    npx @hey-api/openapi-ts -i openapi/*-openapi.* -o ./src/clients/document
+    npx @hey-api/openapi-ts -i ./openapi/document-openapi.yml -o ./src/clients/document
     ```
 
    > For more details see the [Connecting a frontend to the NPL API](https://documentation.noumenadigital.com/tracks/generate-client/#generate-an-openapi-specification) documentation
